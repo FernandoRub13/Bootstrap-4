@@ -11,6 +11,7 @@ html{
 .footer{
     background-color: lightsalmon;
     color: black;
+    padding: 15px;
 }
 
 .card{
