@@ -5,49 +5,171 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="estilos.css">
+    
     <title>Primer proyecto</title>
 </head>
 <body>
-    <div class="jumbotron jumbotron-fluid">
+    <div class="jumbotron ">
         <h2 class="display-2">Proyecto</h2>
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 col-sm-6 col-md-4">
-                    <h3 class="display-3">Item1</h3>
-                    <p class="lead">Esta es la descripción del item 1.</p>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4">
-                    <h3 class="display-3">Item2</h3>
-                    <p class="lead">Esta es la descripción del item 2.</p>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4">
-                    <h3 class="display-3">Item3</h3>
-                    <p class="lead">Esta es la descripción del item 3.</p>
-                </div>
+        <hr class="my-4">
+    </div>
+              <!-- ************************************** Utilizando row y col ************************************** -->
 
+    <div class="container">
+        <div class="row">
+            <div class="card">
+                <h3 class="display-3">Item1</h3>
+                <p class="lead">Esta es la descripción del item 1.</p>
             </div>
-            <div class="row">
-                <div class="col-xs-12 col-sm-6 col-md-4">
-                    <h3 class="display-6">Hotel 1</h3>
-                    <p class="lead">Esta es la descripción del hotel 1.</p>
-                    <button class="btn btn-outline-dark">Ver hotel 1</button>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4">
-                    <h3 class="display-6">Hotel 2</h3>
-                    <p class="lead">Esta es la descripción del hotel 2.</p>
-                    <button class="btn btn-outline-dark">Ver hotel 2</button>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4">
-                    <h3 class="display-6">Hotel 3</h3>
-                    <p class="lead">Esta es la descripción del hotel 3.</p>
-                    <button class="btn btn-outline-dark">Ver hotel 3</button>
-                </div>
-                
+            <div class="card">
+                <h3 class="display-3">Item2</h3>
+                <p class="lead">Esta es la descripción del item 2.</p>
+            </div>
+            <div class="card">
+                <h3 class="display-3">Item3</h3>
+                <p class="lead">Esta es la descripción del item 3.</p>
+            </div>
+            <div class="card">
+                <h3 class="display-3">Item1</h3>
+                <p class="lead">Esta es la descripción del item 1.</p>
+            </div>
+            <div class="card">
+                <h3 class="display-3">Item2</h3>
+                <p class="lead">Esta es la descripción del item 2.</p>
+            </div>
+            <div class="card">
+                <h3 class="display-3">Item3</h3>
+                <p class="lead">Esta es la descripción del item 3.</p>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <h3 class="display-6">Hotel 1</h3>
+                <p class="lead">Esta es la descripción del hotel 1.</p>
+                <button class="btn btn-outline-dark">Ver hotel 1</button>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <h3 class="display-6">Hotel 2</h3>
+                <p class="lead">Esta es la descripción del hotel 2.</p>
+                <button class="btn btn-outline-dark">Ver hotel 2</button>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <h3 class="display-6">Hotel 3</h3>
+                <p class="lead">Esta es la descripción del hotel 3.</p>
+                <button class="btn btn-outline-dark">Ver hotel 3</button>
             </div>
             
         </div>
-      </div>
+        
+    </div>
+      
+      <!-- ************************************** Utilizando Flex ************************************** -->
+    <div class="container">
+        <div class="row">
+            <div class="card">
+                <h3 class="display-3">Item1</h3>
+                <p class="lead">Esta es la descripción del item 1.</p>
+            </div>
+            <div class="card">
+                <h3 class="display-3">Item2</h3>
+                <p class="lead">Esta es la descripción del item 2.</p>
+            </div>
+            <div class="card">
+                <h3 class="display-3">Item3</h3>
+                <p class="lead">Esta es la descripción del item 3.</p>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="card-sin-borde d-flex flex-column justify-content-between">
+                <div >
+                    <h3 class="display-6">Hotel 1</h3>
+                    <p class="lead">Esta es la descripción del hotel 1.</p>
+                </div>
+                <button class="btn btn-success">Ver hotel 1</button>
+            </div>
+            <div class="card-sin-borde d-flex flex-column justify-content-between">
+                <div >
+                    <h3 class="display-6">Hotel 2</h3>
+                    <p class="lead">Esta es la descripción del hotel 2.</p>
+                </div>
+                <button class="btn btn-success">Ver hotel 2</button>
+            </div>
+            <div class="card-sin-borde d-flex flex-column justify-content-between">
+                <div >
+                    <h3 class="display-6">Hotel 3</h3>
+                    <p class="lead">Esta es la descripción del hotel 3.</p>
+                </div>
+                <button class="btn btn-success">Ver hotel 3</button>
+            </div>
+            <div class="card-sin-borde d-flex flex-column justify-content-between">
+                <div >
+                    <h3 class="display-6">Hotel 4</h3>
+                    <p class="lead">Esta es la descripción del hotel 4.</p>
+                </div>
+                <button class="btn btn-success">Ver hotel 4</button>
+            </div>
+            <div class="card-sin-borde d-flex flex-column justify-content-between">
+                <div >
+                    <h3 class="display-6">Hotel 5</h3>
+                    <p class="lead">Esta es la descripción del hotel 5.</p>
+                </div>
+                <button class="btn btn-success">Ver hotel 5</button>
+            </div>
+            <div class="card-sin-borde d-flex flex-column justify-content-between">
+                <div >
+                    <h3 class="display-6">Hotel 6</h3>
+                    <p class="lead">Esta es la descripción del hotel 6.</p>
+                </div>
+                <button class="btn btn-success">Ver hotel 6</button>
+            </div>
+            <div class="card-sin-borde d-flex flex-column justify-content-between">
+                <div >
+                    <h3 class="display-6">Hotel 7</h3>
+                    <p class="lead">Esta es la descripción del hotel 7.</p>
+                </div>
+                <button class="btn btn-success">Ver hotel 7</button>
+            </div>
+            <div class="card-sin-borde d-flex flex-column justify-content-between">
+                <div >
+                    <h3 class="display-6">Hotel 8</h3>
+                    <p class="lead">Esta es la descripción completa y libre de todos los mexicanos de la ciudad de los hoteles del hotel 8.</p>
+                </div>
+                <button class="btn btn-success">Ver hotel 8</button>
+            </div>
+            <div class="card-sin-borde d-flex flex-column justify-content-between">
+                <div >
+                    <h3 class="display-6">Hotel 9</h3>
+                    <p class="lead">Esta es la descripción del hotel 9.</p>
+                </div>
+                <button class="btn btn-success">Ver hotel 9</button>
+            </div>
+            
+        </div>
+    </div>
+    
+    <footer class="footer">
+        <div class="row">
+            <div class="col-sm-4">
+                <a href="facebook.com">facebook</a>
+                <a href="twitter.com">twitter</a>
+                <a href="instagram.com">instagram</a>
+            </div>
+            <div class="col-sm-4">
+                <address>
+                    Esquina de chapultepec
+                </address>
+            </div>
+            <div class="col-sm-4">
+                <a href="">Acerca</a>
+                <a href="">Contacto</a>
+                <a href="">Nosototros</a>
+                <a href="">Políticas de privacidad</a>
+            </div>
+        </div>
+    </footer>
     <script src="/node_modules/@popperjs/core/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 

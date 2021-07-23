@@ -1,0 +1,30 @@
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.jumbotron{
+    background-color: lightsalmon;
+    color: black;
+}
+
+.footer{
+    background-color: lightsalmon;
+    color: black;
+}
+
+.card{
+    flex: 1 150px;
+    border: thin solid black;
+    margin: 3px;
+    padding: 5px 0px;
+}
+.card-sin-borde{
+    flex: 1 150px;
+    border: thin solid white;
+    margin: 7px 3px;
+    padding: 5px 0px;
+}
+.btn{
+    width: 100%;
+}
