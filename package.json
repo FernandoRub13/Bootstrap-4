@@ -1,0 +1,19 @@
+{
+  "name": "bootstrap",
+  "version": "1.0.0",
+  "description": "Proyecto en NodeJS",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FernandoRub13/Bootstrap-4.git"
+  },
+  "author": "Fernando Rubio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FernandoRub13/Bootstrap-4/issues"
+  },
+  "homepage": "https://github.com/FernandoRub13/Bootstrap-4#readme"
+}
