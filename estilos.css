@@ -16,16 +16,18 @@ html{
 
 .card{
     flex: 1 150px;
-    border: thin solid black;
+    border: thin solid white;
     margin: 3px;
     padding: 5px 0px;
 }
 .card-sin-borde{
     flex: 1 150px;
-    border: thin solid white;
+    border: thin solid gray;
+    border-radius: 3px;
     margin: 7px 3px;
     padding: 5px 0px;
 }
-.btn{
-    width: 100%;
+.btn, p, h3{
+    width: 80%;
+    margin: 10px auto;
 }
