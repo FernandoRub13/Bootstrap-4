@@ -6,7 +6,12 @@ html{
     
 }
 .jumbotron{
-    background-color: #16a085;
+    background-image: url("https://placeimg.com/1500/1200/arch"); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+   /* height: 500px;  You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
     color: aliceblue;
     padding: .25rem;
     font-family: 'Poiret One', cursive;
@@ -22,14 +27,14 @@ html{
     flex: 1 150px;
     border: thin solid white;
     margin: 3px;
-    padding: 5px 0px;
+    padding: 0px 0px 5px 0px;
 }
 .card-sin-borde{
-    flex: 1 150px;
+    /* flex: 1 150px; */
     border: thin solid gray;
     border-radius: 3px;
-    margin: 7px 3px;
-    padding: 5px 0px;
+    margin: 7px  7px 7px auto;
+    padding: 0px 0px 5px 0px;
 }
 .btn, p, h3{
     width: 80%;
