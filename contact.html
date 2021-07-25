@@ -6,14 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="estilos.css">
-    <script src="node_modules/@fortawesome/fontawesome-free/js/all.min.js"></script>
     
-    <title>Primer proyecto</title>
+    <title>Contacto</title>
 </head>
 <body>
     <nav class="navbar sticky-top navbar-expand-lg navbar-dark" style="background-color: #2c3e50;">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
+          <a class="navbar-brand active" href="index.html">Navbar</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -21,10 +20,10 @@
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               
               <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
+                <a class="nav-link " href="about.html">About</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link " href="contact.html" >Contacto</a>
+                  <a class="nav-link active">Contacto</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link " href="prices.html" >Precios</a>
@@ -49,12 +48,13 @@
         </div>
       </nav>
     <div class="jumbotron ">
-        <h2 class="display-2">Proyecto </i></h2>
+        <h2 class="display-2">Contacto</h2>
         
     </div>
     <nav class="container breadcumb1" style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
         <ol class="breadcrumb">
-          <li class="breadcrumb-item active" aria-current="page">Home</li>
+            <li class="breadcrumb-item "><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Contacto</li>
         </ol>
     </nav>
               <!-- ************************************** Utilizando row y col ************************************** -->
@@ -109,100 +109,58 @@
     </div>
     -->
       <!-- ************************************** Utilizando Flex ************************************** -->
-    <div class="container">
-        <div class="row">
-            <div class="card">
-                <h3 class="display-3">Item1</h3>
-                <p class="lead">Esta es la descripción del item 1.</p>
+      <div class="container">
+        <form class=" row g-3">
+            <div class="col-md-4">
+              <label for="validationDefault01" class="form-label">Nombre</label>
+              <input type="text" class="form-control" id="validationDefault01" placeholder="Escribe tu nombre completo" required>
             </div>
-            <div class="card">
-                <h3 class="display-3">Item2</h3>
-                <p class="lead">Esta es la descripción del item 2.</p>
+            <div class="col-md-4">
+              <label for="validationDefault02" class="form-label">Correo</label>
+              <input type="email" class="form-control" id="validationDefault02" placeholder="Escribe tu correo" required>
             </div>
-            <div class="card">
-                <h3 class="display-3">Item3</h3>
-                <p class="lead">Esta es la descripción del item 3.</p>
+            <div class="col-md-4 ">
+                <label for="validationDefault03" class="form-label">Tema</label>
+                <select class=" form-select "  id="validationDefault03" aria-label="Default select example">
+                    <option value="0"  >Duda</option>
+                    <option value="1">Sugerencia</option>
+                    <option value="2">Colaboracion</option>
+                    <option value="3">Contratación</option>
+                  </select>
             </div>
-
-        </div>
-        <div class="row">
-            <div class="card-sin-borde d-flex flex-column justify-content-between">
-                <div >
-                    <h3 class="display-6">Hotel 1</h3>
-                    <p class="lead">Esta es la descripción del hotel 1.</p>
-                </div>
-                <button class="btn btn-success">Ver hotel 1</button>
-            </div>
-            <div class="card-sin-borde d-flex flex-column justify-content-between">
-                <div >
-                    <h3 class="display-6">Hotel 2</h3>
-                    <p class="lead">Esta es la descripción del hotel 2.</p>
-                </div>
-                <button class="btn btn-success">Ver hotel 2</button>
-            </div>
-            <div class="card-sin-borde d-flex flex-column justify-content-between">
-                <div >
-                    <h3 class="display-6">Hotel 3</h3>
-                    <p class="lead">Esta es la descripción del hotel 3.</p>
-                </div>
-                <button class="btn btn-success">Ver hotel 3</button>
-            </div>
-            <div class="card-sin-borde d-flex flex-column justify-content-between">
-                <div >
-                    <h3 class="display-6">Hotel 4</h3>
-                    <p class="lead">Esta es la descripción del hotel 4.</p>
-                </div>
-                <button class="btn btn-success">Ver hotel 4</button>
-            </div>
-            <div class="card-sin-borde d-flex flex-column justify-content-between">
-                <div >
-                    <h3 class="display-6">Hotel 5</h3>
-                    <p class="lead">Esta es la descripción del hotel 5.</p>
-                </div>
-                <button class="btn btn-success">Ver hotel 5</button>
-            </div>
-            <div class="card-sin-borde d-flex flex-column justify-content-between">
-                <div >
-                    <h3 class="display-6">Hotel 6</h3>
-                    <p class="lead">Esta es la descripción del hotel 6.</p>
-                </div>
-                <button class="btn btn-success">Ver hotel 6</button>
-            </div>
-            <div class="card-sin-borde d-flex flex-column justify-content-between">
-                <div >
-                    <h3 class="display-6">Hotel 7</h3>
-                    <p class="lead">Esta es la descripción del hotel 7.</p>
-                </div>
-                <button class="btn btn-success">Ver hotel 7</button>
-            </div>
-            <div class="card-sin-borde d-flex flex-column justify-content-between">
-                <div >
-                    <h3 class="display-6">Hotel 8</h3>
-                    <p class="lead">Esta es la descripción completa y libre de todos los mexicanos de la ciudad de los hoteles del hotel 8.</p>
-                </div>
-                <button class="btn btn-success">Ver hotel 8</button>
-            </div>
-            <div class="card-sin-borde d-flex flex-column justify-content-between">
-                <div >
-                    <h3 class="display-6">Hotel 9</h3>
-                    <p class="lead">Esta es la descripción del hotel 9.</p>
-                </div>
-                <button class="btn btn-success">Ver hotel 9</button>
-            </div>
+            <div class="col-md-12">
+                <label for="validationDefault04" class="form-label">Asunto</label>
+                <input type="text" class="form-control" id="validationDefault04" placeholder="Escribe el asunto" required>
+              </div>
+            <div class="col-md-12">
+                <label for="validationDefault05" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="validationDefault05" placeholder="Escribe el mensaje"aria-label="With textarea"></textarea>
+              </div>
             
-        </div>
-    </div>
+            <div class="col-md-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                <label class="form-check-label" for="invalidCheck2">
+                  Aceptar terminos y condiciones
+                </label>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <button class="btn btn-form btn-primary" type="submit">Enviar</button>
+            </div>
+          </form>
+      </div>
     
     <footer class="footer">
         <div class="row">
             <div class="col-sm-4 d-flex flex-column align-items-start">
-                <a href="facebook.com"><i class="fab fa-facebook"></i>facebook</a>
-                <a href="twitter.com"><i class="fab fa-twitter"></i>twitter</a>
-                <a href="instagram.com"><i class="fab fa-instagram"></i>instagram</a>
+                <a href="facebook.com">facebook</a>
+                <a href="twitter.com">twitter</a>
+                <a href="instagram.com">instagram</a>
             </div>
             <div class="col-sm-4 d-flex flex-column align-items-center">
                 <h4>
-                    <i class="fas fa-map-marker-alt"></i> Oficina central
+                    Oficina central
                 </h4>
                 <address>
                     Insurgentes Sur. CDMX 30321
@@ -218,5 +176,6 @@
     </footer>
     <script src="/node_modules/@popperjs/core/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    
 </body>
 </html>
