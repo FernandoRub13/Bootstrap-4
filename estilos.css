@@ -1,15 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
 html{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 .jumbotron{
-    background-color: lightsalmon;
-    color: black;
+    background-color: #16a085;
+    color: aliceblue;
+    padding: .25rem;
+    font-family: 'Poiret One', cursive;
 }
 
 .footer{
-    background-color: lightsalmon;
+    background-color: #16a085;
     color: black;
     padding: 15px;
 }
@@ -30,4 +34,8 @@ html{
 .btn, p, h3{
     width: 80%;
     margin: 10px auto;
+}
+.breadcumb1{
+    padding: 1em;
+
 }
