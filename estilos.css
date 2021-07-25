@@ -43,6 +43,9 @@ html{
 .btn-form{
     margin: 3px auto;
     width: 100%;
+}.btn-items{
+    margin: 1.5%;
+    width: 100%;
 }
 .breadcumb1{
     padding: 1em;

@@ -110,23 +110,40 @@
     </div>
     -->
       <!-- ************************************** Utilizando Flex ************************************** -->
-    <div class="container">
-        <div class="row">
-            <div class="card">
-                <h3 class="card-title display-3">Item1</h3>
-                
-                <p class="lead">Esta es la descripción del item 1.</p>
-            </div>
-            <div class="card">
-                <h3 class="display-3">Item2</h3>
-                <p class="lead">Esta es la descripción del item 2.</p>
-            </div>
-            <div class="card">
-                <h3 class="display-3">Item3</h3>
-                <p class="lead">Esta es la descripción del item 3.</p>
-            </div>
 
-        </div>
+    <div class="container">
+        <p class="d-flex flex-row">
+            <button class="btn btn-items btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample1" aria-expanded="false" aria-controls="multiCollapseExample1">Item 1</button>
+            <button class="btn btn-items btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Item 2</button>
+            <button class="btn btn-items btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample3" aria-expanded="false" aria-controls="multiCollapseExample3">Item 3</button>
+          </p>
+          <div class="row">
+            <div class="col">
+              <div class="collapse multi-collapse" id="multiCollapseExample1">
+                <div class="card card-body">
+                    <h3 class="card-title display-3">Item1</h3>
+                    <p class="lead">Esta es la descripción del item 1.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="collapse multi-collapse" id="multiCollapseExample2">
+                <div class="card card-body">
+                    <h3 class="display-3">Item2</h3>
+                    <p class="lead">Esta es la descripción del item 2.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+                <div class="collapse multi-collapse" id="multiCollapseExample3">
+                  <div class="card card-body">
+                    <h3 class="display-3">Item3</h3>
+                    <p class="lead">Esta es la descripción del item 3.</p>
+                  </div>
+                </div>
+              </div>
+          </div>
+        
         <div class="row">
             <div class="card-sin-borde col-xs-12 col-sm-12 col-md-3 col-lg-2 d-flex flex-column justify-content-between">
                 <div >
