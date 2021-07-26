@@ -1,53 +1,65 @@
-@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
-html{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
-}
-.jumbotron{
-    background-image: url("https://images.wallpaperscraft.com/image/architecture_bw_building_129956_1024x768.jpg"); /* The image used */
-    background-color: #cccccc; /* Used if the image is unavailable */
-   /* height: 500px;  You must set a specified height */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
-    color: aliceblue;
-    padding: .25rem;
-    font-family: 'Poiret One', cursive;
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.footer{
-    background-color: #16a085;
-    color: black;
-    padding: 15px;
+.jumbotron {
+  background-image: url("https://images.wallpaperscraft.com/image/architecture_bw_building_129956_1024x768.jpg");
+  /* The image used */
+  background-color: #fff;
+  /* Used if the image is unavailable */
+  /* height: 500px;  You must set a specified height */
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+  /* Resize the background image to cover the entire container */
+  color: #fff;
+  padding: 0.25rem;
+  font-family: "Poiret One", cursive;
 }
 
-.card{
-    flex: 1 150px;
-    border: thin solid white;
-    margin: 3px;
-    padding: 0px 0px 5px 0px;
+.footer {
+  background-color: #16a085;
+  color: #000;
+  padding: 15px;
 }
-.card-sin-borde{
-    /* flex: 1 150px; */
-    border: thin solid gray;
-    border-radius: 3px;
-    margin: 7px  7px 7px auto;
-    padding: 0px 0px 5px 0px;
-}
-.btn, p, h3{
-    width: 80%;
-    margin: 10px auto;
-}
-.btn-form{
-    margin: 3px auto;
-    width: 100%;
-}.btn-items{
-    margin: 1.5%;
-    width: 100%;
-}
-.breadcumb1{
-    padding: 1em;
 
+.card {
+  flex: 1 150px;
+  border: thin solid #fff;
+  margin: 3px;
+  padding: 0px 0px 5px 0px;
 }
+
+.card-sin-borde {
+  /* flex: 1 150px; */
+  border: thin solid #7f7f7f;
+  border-radius: 3px;
+  margin: 7px 7px 7px auto;
+  padding: 0px 0px 5px 0px;
+}
+
+.btn, p, h3 {
+  width: 80%;
+  margin: 10px auto;
+}
+
+.btn-form {
+  margin: 3px auto;
+  width: 100%;
+}
+
+.btn-items {
+  margin: 1.5%;
+  width: 100%;
+}
+
+.breadcumb1 {
+  padding: 1em;
+}
+
+/*# sourceMappingURL=estilos.css.map */

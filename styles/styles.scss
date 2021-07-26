@@ -1,0 +1,62 @@
+$blue: #16a085;
+$white: #fff;
+$black: #000;
+$gray: #7f7f7f;
+
+@mixin padding1 {
+    padding: 0px 0px 5px 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.jumbotron{
+    background-image: url("https://images.wallpaperscraft.com/image/architecture_bw_building_129956_1024x768.jpg"); /* The image used */
+    background-color: $white; /* Used if the image is unavailable */
+   /* height: 500px;  You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    color: $white;
+    padding: .25rem;
+    font-family: 'Poiret One', cursive;
+}
+
+.footer{
+    background-color: $blue;
+    color: $black;
+    padding: 15px;
+}
+
+.card{
+    flex: 1 150px;
+    border: thin solid $white;
+    margin: 3px;
+    @include padding1;
+}
+.card-sin-borde{
+    /* flex: 1 150px; */
+    border: thin solid $gray;
+    border-radius: 3px;
+    margin: 7px  7px 7px auto;
+    @include padding1;
+}
+.btn, p, h3{
+    width: 80%;
+    margin: 10px auto;
+}
+.btn-form{
+    margin: 3px auto;
+    width: 100%;
+}.btn-items{
+    margin: 1.5%;
+    width: 100%;
+}
+.breadcumb1{
+    padding: 1em;
+
+}

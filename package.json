@@ -18,7 +18,8 @@
   },
   "homepage": "https://github.com/FernandoRub13/Bootstrap-4#readme",
   "devDependencies": {
-    "lite-server": "^2.6.1"
+    "lite-server": "^2.6.1",
+    "sass": "^1.36.0"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.3",
