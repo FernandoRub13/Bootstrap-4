@@ -1,7 +1,9 @@
+
 $blue: #16a085;
 $white: #fff;
 $black: #000;
 $gray: #7f7f7f;
+$navbar-color: #2c3e50;
 
 @mixin padding1 {
     padding: 0px 0px 5px 0px;
@@ -12,7 +14,7 @@ html{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+
 }
 .jumbotron{
     background-image: url("https://images.wallpaperscraft.com/image/architecture_bw_building_129956_1024x768.jpg"); /* The image used */
@@ -59,4 +61,7 @@ html{
 .breadcumb1{
     padding: 1em;
 
+}
+#navbar{
+    background-color: $navbar-color;
 }

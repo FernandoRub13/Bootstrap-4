@@ -1,10 +1,18 @@
-@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
+.padding1 {
+  padding: 0px 0px 5px 0px;
+}
+@font-face {
+  font-family: 'Poiret One';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poiretone/v9/UqyVK80NJXN4zfRgbdfbk5k.ttf) format('truetype');
+}
 html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
 .jumbotron {
   background-image: url("https://images.wallpaperscraft.com/image/architecture_bw_building_129956_1024x768.jpg");
   /* The image used */
@@ -19,47 +27,40 @@ html {
   /* Resize the background image to cover the entire container */
   color: #fff;
   padding: 0.25rem;
-  font-family: "Poiret One", cursive;
+  font-family: 'Poiret One', cursive;
 }
-
 .footer {
   background-color: #16a085;
   color: #000;
   padding: 15px;
 }
-
 .card {
   flex: 1 150px;
   border: thin solid #fff;
   margin: 3px;
   padding: 0px 0px 5px 0px;
 }
-
 .card-sin-borde {
   /* flex: 1 150px; */
   border: thin solid #7f7f7f;
   border-radius: 3px;
-  margin: 7px 7px 7px auto;
+  margin: 7px  7px 7px auto;
   padding: 0px 0px 5px 0px;
 }
-
-.btn, p, h3 {
+.btn,
+p,
+h3 {
   width: 80%;
   margin: 10px auto;
 }
-
 .btn-form {
   margin: 3px auto;
   width: 100%;
 }
-
 .btn-items {
   margin: 1.5%;
   width: 100%;
 }
-
 .breadcumb1 {
   padding: 1em;
 }
-
-/*# sourceMappingURL=estilos.css.map */
