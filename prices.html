@@ -1,189 +1,229 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- build:css dist/prices.css -->
-    <link href="/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles/estilos.css">
-    <!-- endbuild -->
-    
-    
-    <title>About</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- build:css css/index.css -->
+  <link href="/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles/styles.css">
+  <!-- endbuild -->
+
+
+  <title>About</title>
 </head>
+
 <body>
-    <nav class="navbar sticky-top navbar-expand-lg navbar-dark" id="navbar">
-        <div class="container-fluid">
-          <a class="navbar-brand active" href="index.html">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              
-                <li class="nav-item">
-                    <a class="nav-link " href="about.html">About</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link " href="contact.html" >Contacto</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" >Precios</a>
-                      </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Dropdown
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                </li>
+  <nav class="navbar sticky-top navbar-expand-lg navbar-dark" id="navbar">
+    <div class="container-fluid">
+      <a class="navbar-brand active" href="index.html">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+          <li class="nav-item">
+            <a class="nav-link " href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="contact.html">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active">Precios</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
             </ul>
-            <form class="d-flex">
-              <input class="form-control me-6" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-          </div>
-        </div>
-      </nav>
-    <div class="jumbotron ">
-        <h2 class="display-2">Precios</h2>
-        
-    </div>
-    <nav class="container breadcumb1" style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
-        <ol class="breadcrumb">
-            <li class="breadcrumb-item "><a href="index.html">Home</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Precios</li>
-        </ol>
-    </nav>
-
-    <ul class=" container nav nav-tabs" id="myTab" role="tablist">
-      <li class="nav-item" role="presentation">
-        <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Precios</button>
-      </li>
-      <li class="nav-item" role="presentation">
-        <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Reservas</button>
-      </li>
-      <li class="nav-item" role="presentation">
-        <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Comentarios</button>
-      </li>
-    </ul>
-
-    <div class="  tab-content" id="myTabContent">
-      <div class="tab-pane fade show active table-responsive-sm" id="home" role="tabpanel" aria-labelledby="home-tab">
-        <table class=" container table table-striped table-hover">
-        
-                <thead class="thead table-dark">
-                  <tr>
-                    <th scope="col">Estrellas</th>
-                    <th scope="col">Nombre</th>
-                    <th scope="col">Ubicacion</th>
-                    <th scope="col">Precio</th>
-                    <th scope="col"></th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th scope="row">1</th>
-                    <td>Hotel traveler</td>
-                    <td>CDMX</td>
-                    <td>$600 c/noche</td>
-                    <td><button class="btn btn-primary">Reservar</button></td>
-                  </tr>
-                  <tr>
-                    <th scope="row">2</th>
-                    <td>Balam</td>
-                    <td>Quintana Roo</td>
-                    <td>$600 c/noche</td>
-                    <td><button class="btn btn-primary">Reservar</button></td>
-                  </tr>
-                  <tr>
-                    <th scope="row">3</th>
-                    <td>Hotel Maya</td>
-                    <td>Quintana Roo</td>
-                    <td>$600 c/noche</td>
-                    <td><button class="btn btn-primary">Reservar</button></td>
-                  </tr>
-                </tbody>
-              </table>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-6" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
       </div>
-      <div class="container tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-        <div class="accordion" id="accordionPanelsStayOpenExample">
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne">
-                Forma de reserva #1
-              </button>
-            </h2>
-            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
-              <div class="accordion-body">
-                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-              </div>
+    </div>
+  </nav>
+  <div class="jumbotron ">
+    <h2 class="display-2">Precios</h2>
+
+  </div>
+  <nav class="container breadcumb1"
+    style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);"
+    aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item "><a href="index.html">Home</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Precios</li>
+    </ol>
+  </nav>
+
+  <ul class=" container nav nav-tabs" id="myTab" role="tablist">
+    <li class="nav-item" role="presentation">
+      <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab"
+        aria-controls="home" aria-selected="true">Precios</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab"
+        aria-controls="profile" aria-selected="false">Reservas</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab"
+        aria-controls="contact" aria-selected="false">Comentarios</button>
+    </li>
+  </ul>
+
+  <div class="  tab-content" id="myTabContent">
+    <div class="tab-pane fade show active table-responsive-sm" id="home" role="tabpanel" aria-labelledby="home-tab">
+      <table class=" container table table-striped table-hover">
+
+        <thead class="thead table-dark">
+          <tr>
+            <th scope="col">Estrellas</th>
+            <th scope="col">Nombre</th>
+            <th scope="col">Ubicacion</th>
+            <th scope="col">Precio</th>
+            <th scope="col"></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Hotel traveler</td>
+            <td>CDMX</td>
+            <td>$600 c/noche</td>
+            <td><button class="btn btn-primary">Reservar</button></td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Balam</td>
+            <td>Quintana Roo</td>
+            <td>$600 c/noche</td>
+            <td><button class="btn btn-primary">Reservar</button></td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Hotel Maya</td>
+            <td>Quintana Roo</td>
+            <td>$600 c/noche</td>
+            <td><button class="btn btn-primary">Reservar</button></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="container tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+      <div class="accordion" id="accordionPanelsStayOpenExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseOne">
+              Forma de reserva #1
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse"
+            aria-labelledby="panelsStayOpen-headingOne">
+            <div class="accordion-body">
+              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse
+              plugin adds the appropriate classes that we use to style each element. These classes control the overall
+              appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom
+              CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
+              <code>.accordion-body</code>, though the transition does limit overflow.
             </div>
           </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-                Forma de reserva #2
-              </button>
-            </h2>
-            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
-              <div class="accordion-body">
-                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-              </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseTwo">
+              Forma de reserva #2
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+            aria-labelledby="panelsStayOpen-headingTwo">
+            <div class="accordion-body">
+              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse
+              plugin adds the appropriate classes that we use to style each element. These classes control the overall
+              appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom
+              CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
+              <code>.accordion-body</code>, though the transition does limit overflow.
             </div>
           </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                Forma de reserva #3
-              </button>
-            </h2>
-            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
-              <div class="accordion-body">
-                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-              </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseThree">
+              Forma de reserva #3
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+            aria-labelledby="panelsStayOpen-headingThree">
+            <div class="accordion-body">
+              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
+              plugin adds the appropriate classes that we use to style each element. These classes control the overall
+              appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom
+              CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
+              <code>.accordion-body</code>, though the transition does limit overflow.
             </div>
           </div>
         </div>
       </div>
-      <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">Comentarios</div>
     </div>
+    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">Comentarios</div>
+  </div>
 
-    
-    <div id="Tab2"></div>
-    <div id="Tab3"></div>
-    <footer class="footer">
-        <div class="row">
-            <div class="col-sm-4 d-flex flex-column align-items-start">
-                <a href="facebook.com">facebook</a>
-                <a href="twitter.com">twitter</a>
-                <a href="instagram.com">instagram</a>
-            </div>
-            <div class="col-sm-4 d-flex flex-column align-items-center">
-                <h4>
-                    Oficina central
-                </h4>
-                <address>
-                    Insurgentes Sur. CDMX 30321
-                </address>
-            </div>
-            <div class="col-sm-4 d-flex flex-column align-items-end">
-                <a href="">Acerca</a>
-                <a href="">Contacto</a>
-                <a href="">Nosototros</a>
-                <a href="">Políticas de privacidad</a>
-            </div>
-        </div>
-    </footer>
-    <!-- build:js dist/prices.js -->
-    <script src="node_modules/@fortawesome/fontawesome-free/js/all.min.js"></script>
-    <script src="/node_modules/@popperjs/core/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-    <!-- endbuild -->
-  </body>
+
+  <div id="Tab2"></div>
+  <div id="Tab3"></div>
+  <footer class="footer">
+    <div class="row">
+      <div class="col-sm-4 d-flex flex-column align-items-start">
+        <a href="facebook.com"><i class="fab fa-facebook"></i>facebook</a>
+        <a href="twitter.com"><i class="fab fa-twitter"></i>twitter</a>
+        <a href="instagram.com"><i class="fab fa-instagram"></i>instagram</a>
+      </div>
+      <div class="col-sm-4 d-flex flex-column align-items-center">
+        <h4>
+          <i class="fas fa-map-marker-alt"></i> Oficina central
+        </h4>
+        <address>
+          Insurgentes Sur. CDMX 30321
+        </address>
+      </div>
+      <div class="col-sm-4 d-flex flex-column align-items-end">
+        <a href="">Acerca</a>
+        <a href="">Contacto</a>
+        <a href="">Nosototros</a>
+        <a href="">Políticas de privacidad</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- build:js js/main.js -->
+  <script src="/node_modules/@fortawesome/fontawesome-free/js/all.min.js"></script>
+  <script src="/node_modules/@popperjs/core/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+  <script src="js/index.js"></script>
+  <!-- endbuild -->
+</body>
+
 </html>

@@ -5,12 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- build:css dist/index.css -->
+    <!-- build:css css/index.css -->
     <link href="/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles/estilos.css">
+    <link rel="stylesheet" href="styles/styles.css">
     <!-- endbuild -->
-    
+
 
     <title>Primer proyecto</title>
 </head>
@@ -329,77 +329,48 @@
                 <a href="">Políticas de privacidad</a>
             </div>
         </div>
-        <!-- **************************************************Modal***************************************************************************** -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Contactanos, en breve te responderemos</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <form>
-                            <div class="mb-3">
-                                <label for="recipient-name" class="col-form-label">Hotel:</label>
-                                <input type="text" class="form-control" id="recipient-name" disabled>
-                            </div>
-                            <div class="mb-3">
-                                <label for="email-from" class="col-form-label">Tu correo:</label>
-                                <input type="text" class="form-control" id="email-from">
-                            </div>
-                            <div class="mb-3">
-                                <label for="message-text" class="col-form-label">Tu mensaje:</label>
-                                <textarea class="form-control" id="message-text"></textarea>
-                            </div>
-                        </form>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                        <button type="button" class="btn btn-primary">Enviar mensaje</button>
-                    </div>
+    </footer>
+    <!-- **************************************************Modal***************************************************************************** -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Contactanos, en breve te responderemos</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="recipient-name" class="col-form-label">Hotel:</label>
+                            <input type="text" class="form-control" id="recipient-name" disabled>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email-from" class="col-form-label">Tu correo:</label>
+                            <input type="text" class="form-control" id="email-from">
+                        </div>
+                        <div class="mb-3">
+                            <label for="message-text" class="col-form-label">Tu mensaje:</label>
+                            <textarea class="form-control" id="message-text"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-primary">Enviar mensaje</button>
                 </div>
             </div>
         </div>
-    </footer>
-    <!-- build:js dist/index.js -->
-    <script src="node_modules/@fortawesome/fontawesome-free/js/all.min.js"></script>
-    <script src="node_modules/@popperjs/core/dist/umd/popper.min.js"
+    </div>
+
+    <!-- build:js js/main.js -->
+    <script src="/node_modules/@fortawesome/fontawesome-free/js/all.min.js"></script>
+    <script src="/node_modules/@popperjs/core/dist/umd/popper.min.js"
         integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
         crossorigin="anonymous"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"
         integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
         crossorigin="anonymous"></script>
-    <script>
-        var exampleModal = document.getElementById('exampleModal')
-        exampleModal.addEventListener('show.bs.modal', function (event) {
-            // Button that triggered the modal
-            var button = event.relatedTarget
-            // Extract info from data-bs-* attributes
-            var recipient = button.getAttribute('data-bs-whatever')
-            // If necessary, you could initiate an AJAX request here
-            // and then do the updating in a callback.
-            //
-            // Update the modal's content.
-            var modalTitle = exampleModal.querySelector('.modal-title')
-            var modalBodyInput = exampleModal.querySelector('.modal-body input')
-
-            modalTitle.textContent = 'New message to ' + recipient
-            modalBodyInput.value = recipient
-        })
-
-        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
-        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
-            return new bootstrap.Tooltip(tooltipTriggerEl)
-        })
-
-        var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
-        var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
-            return new bootstrap.Popover(popoverTriggerEl)
-        })
-
-
-    </script>
-    
+    <script src="js/index.js"></script>
     <!-- endbuild -->
 </body>
 
